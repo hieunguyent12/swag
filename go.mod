@@ -1,4 +1,4 @@
-module github.com/swaggo/swag/v2
+module github.com/hieunguyent12/swag/v2
 
 go 1.18
 
@@ -14,7 +14,7 @@ require (
 	sigs.k8s.io/yaml v1.4.0
 )
 
-replace github.com/swaggo/swag/v2 => github.com/hieunguyent12/swag/v2 v2.0.0-rc4.0.20250917024241-80c5afdd8d76
+// replace github.com/hieunguyent12/swag/v2 => github.com/hieunguyent12/swag/v2 v2.0.0-rc4.0.20250917024241-80c5afdd8d76
 
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.5 // indirect
