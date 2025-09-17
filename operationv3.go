@@ -358,7 +358,7 @@ func (o *OperationV3) ParseParamComment(commentLine string, astFile *ast.File) e
 	param := createParameterV3(paramType, description, name, objectType, refType, required, enums, o.parser.collectionFormatInQuery)
 
 	switch paramType {
-	case "path", "header":
+	case "path", "header", "cookie":
 		switch objectType {
 		case ARRAY:
 			if !IsPrimitiveType(refType) {
