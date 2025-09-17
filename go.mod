@@ -14,8 +14,6 @@ require (
 	sigs.k8s.io/yaml v1.4.0
 )
 
-replace github.com/swaggo/swag/v2 => github.com/hieunguyent12/swag/v2
-
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.5 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
